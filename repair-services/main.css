@@ -1,0 +1,97 @@
+.Main {
+	padding: 20px 0px;
+	width: 100%;
+
+}
+
+.Picture {
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-transform: scale(0.9);
+
+}
+.Service {
+	display: table-cell;
+	width: 200px;
+	border-bottom: 1px solid #d6d6d6;
+	padding: 0 0 5 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3f3f3f;
+	width: 200px;
+	vertical-align: bottom;
+
+}
+
+.Description {
+	display: table-cell;
+	padding: 3px 25px 0px 15px;
+	color: #3f3f3f;
+	font-size: 12px;
+	vertical-align: top;
+	width: 250px;
+	min-width: 200px;
+
+	
+}
+
+.Cost {
+	display: inline;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0055A2;	
+}
+
+.pulse:hover,
+.pulse:focus {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+
+.pulse {
+    --color: #0055A2;
+    --hover: #E5A823;
+    outline: none;
+
+}
+
+button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+
+}
+
+button:hover,
+button:focus {
+    border-color: var(--hover);
+    color: #0055A2;
+
+
+
+}
+
+button {
+    background: none;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 60%;
+    width: 75px;
+    height: 75px;
+
+}
