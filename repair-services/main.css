@@ -7,7 +7,7 @@
 .Picture {
 	display: table-cell;
 	vertical-align: middle;
-	-webkit-transform: scale(1);
+	-webkit-transform: scale(.9);
 
 }
 .Service {
@@ -88,7 +88,7 @@ button:focus {
 
 button {
     background: none;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 50%;
     font-size: 60%;
     width: 75px;
