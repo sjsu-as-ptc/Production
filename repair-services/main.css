@@ -74,6 +74,7 @@ button {
     color: var(--color);
     -webkit-transition: 0.25s;
     transition: 0.25s;
+    border: none;
 
 }
 
@@ -88,6 +89,7 @@ button:focus {
 
 button {
     background: none;
+    border: none;
     border-radius: 50%;
     font-size: 60%;
     width: 75px;
